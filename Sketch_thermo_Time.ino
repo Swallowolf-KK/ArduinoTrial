@@ -50,13 +50,13 @@ void time() {
   char s[20];
   const char* format = "%04d-%02d-%02d %02d:%02d:%02d";
 
-  // 日本時間
+  // 日本時間の表示
   t = localtime(n, 9);
   sprintf(s, format, year(t), month(t), day(t), hour(t), minute(t), second(t));
   Serial.print("現在の時刻は(JST) :");
   Serial.println(s);
 
-  // UTC
+  // UTC時刻の表示
   t = localtime(n, 0);
   sprintf(s, format, year(t), month(t), day(t), hour(t), minute(t), second(t));
   Serial.print("UTC時刻は :");
