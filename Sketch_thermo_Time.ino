@@ -8,9 +8,9 @@ extern "C"{
 #include "user_interface.h"
 }
 #define PIN_EN 13
-#define SSID "Buffalo-G-05AE"
-#define PASS "rckva8rrve8nv"
-#define SENDTO "192.168.11.255"
+#define SSID "Buffalo-"
+#define PASS ""
+#define SENDTO "192.168.1.255"
 #define PORT 1024
 #define SLEEP_P 290*1000000
 #define DEVICE "temp._1,"
